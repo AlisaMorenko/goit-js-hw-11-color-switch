@@ -1,17 +1,17 @@
 const colors = [
-  "#FFFFFF",
-  "#2196F3",
-  "#4CAF50",
-  "#FF9800",
-  "#009688",
-  "#795548",
+  '#FFFFFF',
+  '#2196F3',
+  '#4CAF50',
+  '#FF9800',
+  '#009688',
+  '#795548',
 ];
 
 const btnStart = document.querySelector('[data-action="start"]');
 const btnStop = document.querySelector('[data-action="stop"]');
 
-btnStart.addEventListener("click", onBtnStartClick);
-btnStop.addEventListener("click", onBtnStopClick);
+btnStart.addEventListener('click', onBtnStartClick);
+btnStop.addEventListener('click', onBtnStopClick);
 
 let timerId = null;
 
